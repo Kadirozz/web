@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ders Programı - Inline CSS</title>
+  </head>
+  <body>
+    <h2 style="text-align:center; color:rgb(0, 0, 0);">3. Sınıf 2025-2026 / Güz</h2>
+    <table border="1" style="border-collapse:collapse; width:90%; margin:auto; text-align:center;">
+      <tr style="background-color:#fad0d0;">
+        <th style="padding:8px;">Ders</th>
+        <th>Saat</th>
+        <th>Pazartesi</th>
+        <th>Salı</th>
+        <th>Çarşamba</th>
+        <th>Perşembe</th>
+        <th>Cuma</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:40-09:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10 </td>
+        <td>GKS 104<br>C-K2-10</td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>09:40-10:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10 </td>
+        <td>GKS 104 <br>C-K2-10 </td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>10:40-11:30</td>
+        <td></td>
+        <td>EGT 304 <br>Kaşgarlı Mahmut C-K2-12 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <td>4</td>
+      <td>11:40-12:30</td>
+      <td></td>
+      <td>EGT 304 <br>Kaşgarlı Mahmut C-K2-12 
+        <br>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      </tr>
+      <td>5</td>
+      <td>12:40-13:30</td>
+      <td></td>
+      <td>
+        <br>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>13:40-14:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ders Programı - Internal CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7faff;
+      }
+
+      h2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+      }
+
+      th, td {  
+        border: 1px solid #000;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #ffffff;
+      }
+
+      tr:nth-child(even) {
+        background-color: #ffffff;
+      }
+
+      
+    </style>
+  </head>
+
+  <body>
+    <h2>3. Sınıf 2025-2026 / Güz</h2>
+    <table>
+      <tr>
+        <th>Ders</th>
+        <th>Saat</th>
+        <th>Pazartesi</th>
+        <th>Salı</th>
+        <th>Çarşamba</th>
+        <th>Perşembe</th>
+        <th>Cuma</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:40-09:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10</td>
+        <td>GKS 104<br>C-K2-10</td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>09:40-10:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10</td>
+        <td>GKS 104 <br>C-K2-10</td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>10:40-11:30</td>
+        <td></td>
+        <td>EGT 304 <br>Kaşgarlı Mahmut C-K2-12</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>11:40-12:30</td>
+        <td></td>
+        <td>EGT 304 <br>Kaşgarlı Mahmut C-K2-12</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>12:40-13:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>13:40-14:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ders Programı - External CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h2>3. Sınıf 2025-2026 / Güz</h2>
+    <table>
+      <tr>
+        <th>Ders</th>
+        <th>Saat</th>
+        <th>Pazartesi</th>
+        <th>Salı</th>
+        <th>Çarşamba</th>
+        <th>Perşembe</th>
+        <th>Cuma</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:40-09:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10</td>
+        <td>GKS 104<br>C-K2-10</td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>09:40-10:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10</td>
+        <td>GKS 104 <br>C-K2-10</td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>10:40-11:30</td>
+        <td></td>
+        <td>EGT 304 <br>Kaşgarlı Mahmut C-K2-12</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>11:40-12:30</td>
+        <td></td>
+        <td>EGT 304 <br>Kaşgarlı Mahmut C-K2-12</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>12:40-13:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>13:40-14:30</td>
+        <td>BTE307 <br>Eğitimde Modelleme ve Tasarım <br>C-K2-10</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

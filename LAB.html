@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <style>
+      .elma {
+        background-color: rgba(255, 228, 196, 0.5);
+        height: 500px;
+        width: 1000px;
+        text-align-last: center;
+        position: absolute;
+        line-height: 400px;
+        font-size: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+      }
+
+      #sekil1 {
+        height: 400px;
+        width: 800px;
+        background-color: rgba(255, 228, 196, 0.5);
+      }
+
+      #sekil2 {
+        height: 300px;
+        width: 600px;
+        background-color: rgba(255, 228, 196, 0.5);
+      }
+       #sekil3 {
+        height: 600px;
+        width: 1200px;
+        background-color: rgba(255, 228, 196, 0.5);
+      }
+
+      #yazi {
+         position: relative;
+      top: 50px; 
+      color: rgb(0, 0, 0);
+      }
+      @keyframes renkDegisim {
+            from { background-color: rgba(218, 114, 196, 0.5);}
+            to { background-color: rgba(244, 53, 101, 0.5); }
+        }
+
+        .elma, #sekil2, #sekil1,#sekil3 {
+            animation-name: renkDegisim;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;}
+    </style>
+  </head>
+  <body>
+    <div class="elma"></div>
+    <div class="elma" id="sekil1"></div>
+    <div class="elma" id="sekil2">
+    </div>
+    <div class="elma"id="sekil3">
+        <h1 id="yazi">Hacettepe BÖTE</h1>
+    </div>
+  </body>
+</html>

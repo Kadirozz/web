@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Yuvarlak Animasyonlar</title>
+  <style>
+body {
+background-color: rgb(39, 38, 38);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: 800px;
+ gap: 70px;
+}
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.sekil1{
+background-color: aquamarine;
+  animation: ustalt 2s ease-in-out infinite;
+}
+@keyframes ustalt {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-100px); }
+}
+.sekil2{
+  background-color: brown;
+animation: renkdegiş 5s ease-in-out infinite;
+}
+@keyframes renkdegiş {
+  0%, 100% { transform: scale(1); background-color: brown; }
+  50% { transform: scale(2); background-color: gold; }
+}
+
+.sekil3{
+  background-color: blueviolet;
+   animation: gitgel 5s ease-in-out infinite;
+}
+@keyframes gitgel {
+   0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+.sekil4 {
+  background-color: rgb(255, 0, 162);
+  animation: solsag 1s ease-in-out infinite;
+}
+@keyframes solsag {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(60px); }
+}
+.sekil5 {
+  background-color: rgb(0, 255, 8);
+  animation: rotatebox 1s linear infinite;
+}
+@keyframes rotatebox {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+  </style>
+</head>
+<body>
+<div class="sekil1">😶‍🌫️</div>
+<div class="sekil2">😶‍🌫️</div>
+<div class="sekil3">😶‍🌫️</div>
+<div class="sekil4">😶‍🌫️</div>
+<div class="sekil5">😶‍🌫️</div>
+</body>
+</html>

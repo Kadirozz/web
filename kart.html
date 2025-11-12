@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Kart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        .card-custom {
+            border: none;
+            border-radius: 10px; 
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+            height: 100%;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+
+        .card-custom:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15); 
+        }
+
+        .card-img-top-custom {
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .card-body-custom {
+            padding: 0.8rem;
+        }
+
+        .card-title-custom {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 0.3rem;
+        }
+
+        .card-text-custom {
+            font-size: 0.75rem;
+            color: #666;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">12 yemek</h1>
+        
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3">
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="ramen.jpg" class="card-img-top card-img-top-custom" alt="Dağ Manzarası">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Ramen</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="sushi.jpg" class="card-img-top card-img-top-custom" alt="Modern Şehir">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Sushi</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="soba.jpg" class="card-img-top card-img-top-custom" alt="Sakin Deniz">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Soba</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="cordon.webp" class="card-img-top card-img-top-custom" alt="Lezzetli Yemek">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Cordon bleu</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="beyti.jpg" class="card-img-top card-img-top-custom" alt="Soyut Sanat">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Beyti</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="taco.jpg" class="card-img-top card-img-top-custom" alt="Vahşi Yaşam">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Taco</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="burrito.jpg" class="card-img-top card-img-top-custom" alt="Teknoloji">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Burrito</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="sarma.jpg" class="card-img-top card-img-top-custom" alt="Finansal Piyasalar">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Sarma</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="kayseri.jpg" class="card-img-top card-img-top-custom" alt="Uzay Bilimi">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Kayseri yağlaması</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="pizza.jpg" class="card-img-top card-img-top-custom" alt="Eğitim">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">Pizza</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="içli.jpg" class="card-img-top card-img-top-custom" alt="Müzik">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">İçli Köfte</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-custom">
+                    <img src="isveç.webp" class="card-img-top card-img-top-custom" alt="Mimari">
+                    <div class="card-body card-body-custom">
+                        <h5 class="card-title card-title-custom">İsveç köfte</h5>
+                        <p class="card-text card-text-custom"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
